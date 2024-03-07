@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0c111f;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+
+.title ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.title ul li{
+    padding: 10px;
+}
+
+.title ul li:hover{
+    background: linear-gradient(93.18deg, #FFFFFF 6.04%, #FFF741 95.29%);
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+}
