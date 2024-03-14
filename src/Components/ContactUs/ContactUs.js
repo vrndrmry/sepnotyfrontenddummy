@@ -12,7 +12,7 @@ export default function ContactUs() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [companyName, setCompanyName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState(0);
+  const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
   const [agreement, setAgreement] = useState({
     contact: false,
