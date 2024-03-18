@@ -8,7 +8,6 @@ import { UserContext } from "../../Context/userContext.js";
 export default function Admin() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  //   const [tnc, setTnc] = useState(false);
   const [redirect, setRedirect] = useState(false);
   const { userInfo, setUserInfo } = useContext(UserContext);
 
@@ -20,7 +19,7 @@ export default function Admin() {
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Headers": "*",
-      },
+      }
     });
     await response.json().then((data) => setUserInfo(data));
     if (!response.ok) {

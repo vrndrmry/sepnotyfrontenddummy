@@ -1,0 +1,45 @@
+.careerCard {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 1rem;
+}
+
+.careerDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.careerDetails>p:nth-child(1) {
+    color: rgba(43, 69, 155, 1);
+    font-weight: bold;
+}
+
+.careerDetails p {
+    line-height: 1rem;
+
+}
+
+.applyDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.applyIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.applyDiv button {
+    padding: 0.8rem;
+}
+
+.applyIcon i:hover{
+    cursor: pointer;
+}

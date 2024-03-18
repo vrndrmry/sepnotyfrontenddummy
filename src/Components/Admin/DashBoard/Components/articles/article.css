@@ -1,6 +1,5 @@
 .items {
     margin-top: 1rem;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     gap: 1rem;

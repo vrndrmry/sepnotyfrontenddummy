@@ -15,6 +15,7 @@ import Editor from "./Editor.js";
 import blogimg from "../../assets/admin/blogimg.svg";
 import BlogList from "./Components/Blog/BlogList.js";
 import Article from "./Components/articles/Article.js";
+import Career from "./Components/career/Career.js";
 
 export default function DashBoard() {
   const { userInfo } = useContext(UserContext);
@@ -102,11 +103,12 @@ export default function DashBoard() {
                     onChange={(e) => setDate(e.target.value)}
                   />
                 </div>
-                <Article/>
+                <Article />
               </div>
             )}
-            {btnText === "blog" && (
-              <BlogList/>
+            {btnText === "blog" && <BlogList />}
+            {btnText === "career" && (
+              <Career/>
             )}
           </div>
         </div>

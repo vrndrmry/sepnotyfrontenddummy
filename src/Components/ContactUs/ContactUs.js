@@ -75,7 +75,7 @@ export default function ContactUs() {
     data.set("files", upload);
 
     const response = await fetch(
-      `http://54.152.29.98:8800/api/contact/contactus`,
+      `http://localhost:8800/api/contact/contactus`,
       {
         method: "POST",
         body: data,
@@ -83,7 +83,7 @@ export default function ContactUs() {
           "Access-Control-Allow-Headers": "*",
         },
       }
-    );
+    ).then(res=>console.log(res)).catch(err=>console.log(err));
     console.log(response);
   };
 
