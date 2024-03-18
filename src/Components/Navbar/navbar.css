@@ -1,30 +1,76 @@
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #0c111f;
-    align-items: center;
-    color: white;
-    height: 10vh;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #0c111f;
+  align-items: center;
+  color: white;
+  height: 10vh;
 }
 
-
-.title ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    justify-content: center;
-    text-align: center;
+.title ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
 }
 
-.title ul li{
-    padding: 10px;
+.title ul li {
+  padding: 10px;
 }
 
-.title ul li:hover{
-    background: linear-gradient(93.18deg, #FFFFFF 6.04%, #FFF741 95.29%);
-    border-radius: 24px;
-    color: black;
-    cursor: pointer;
+.title ul li:hover {
+  background: linear-gradient(93.18deg, #ffffff 6.04%, #fff741 95.29%);
+  border-radius: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.resource {
+  z-index: 999;
+  position: fixed;
+  height: 50vh;
+  width: 100%;
+  background-color: #c1cae7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resource-info {
+  width: 30%;
+}
+
+.resource-link {
+  width: 50%;
+}
+.resource-link h3 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: #2b459b;
+}
+.resource-link ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.resource-link ul a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.resource-link li a{
+  margin: 0.8rem;
+  width: 100%;
+}
+
+li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

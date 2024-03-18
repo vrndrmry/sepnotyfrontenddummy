@@ -1,0 +1,38 @@
+.items {
+    margin-top: 1rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.item-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-content img {
+    margin-right: 1rem;
+}
+
+.item img {
+    width: 4rem;
+}
+
+.btn {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+}

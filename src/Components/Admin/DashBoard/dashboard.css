@@ -1,0 +1,107 @@
+.dashboard {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 17, 31, 1);
+  padding: 2rem;
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 24px;
+}
+h5 {
+  padding: 0 0 1rem 1rem;
+}
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 1rem;
+  position: relative;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0px;
+}
+
+.createBtn {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.createBtn button {
+  padding: 5px;
+}
+
+.adminInfo {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.adminInfo img {
+  height: 3rem;
+}
+
+.content-bottom {
+  margin: 2rem 2rem 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.list {
+  width: 25%;
+}
+.list ul {
+  list-style: none;
+}
+.list ul li {
+    font-size: 1.2rem;
+  margin: 2rem 0px 2rem 0px;
+}
+.list ul li img{
+    margin-right: 1rem;
+    height: 2rem;
+}
+.list ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content {
+  width: 75%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 24px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.calender{
+    text-align-last: right;
+}
+
+.calender input{
+    background-color: rgb(92, 107, 145);
+    color: whitesmoke;
+    border: none;
+    font-size: 1.4rem;
+}
+
+
+
+
+
